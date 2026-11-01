@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blinkit - Groceries in Minutes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#" aria-label="Blinkit home">
+        <img src="images/logo.png" alt="blinkit" width="114" height="40">
+      </a>
+
+      <button class="location" type="button" aria-label="Change delivery location">
+        <span class="location-title">Delivery in 21 minutes</span>
+        <span class="location-address">394, Jail Rd, Nangal Village, Del...</span>
+        <span class="location-caret" aria-hidden="true"></span>
+      </button>
+
+      <form class="search" role="search" action="#" onsubmit="return false;">
+        <svg class="search-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="M20 20l-3.5-3.5"></path>
+        </svg>
+        <input class="search-input" type="search" placeholder="Search &quot;butter&quot;" aria-label="Search products">
+      </form>
+
+      <a class="login-link" href="#">Login</a>
+
+      <button class="cart-button" type="button">
+        <svg class="cart-icon" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M2.5 4h2.7l2.2 11h10.4l2.2-8H6.2"></path>
+          <circle cx="9.5" cy="19.5" r="1.5"></circle>
+          <circle cx="17" cy="19.5" r="1.5"></circle>
+        </svg>
+        <span>My Cart</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page">
+
+    <!-- Main banner -->
+    <section class="hero-banner" aria-label="Featured offer">
+      <a href="#">
+        <img src="images/banner-main.jpg" alt="Stock up on daily essentials. Get farm-fresh goodness and a range of exotic fruits, vegetables, eggs and more. Shop Now">
+      </a>
+    </section>
+
+    <!-- Promo banners -->
+    <section class="promo-banners" aria-label="Promotions">
+      <a class="promo promo-pharmacy" href="#">
+        <img src="images/banner-pharmacy.jpg" alt="Pharmacy at your doorstep! Cough syrups, pain relief sprays and more. Order Now">
+      </a>
+      <a class="promo promo-pet" href="#">
+        <img src="images/banner-pet-care.jpg" alt="Pet care supplies at your door. Food, treats, toys and more. Order Now">
+      </a>
+      <a class="promo promo-baby" href="#">
+        <img src="images/banner-baby-care.jpg" alt="No time for a diaper run? Get baby care essentials. Order Now">
+      </a>
+    </section>
+
+    <!-- Category tiles (each image already includes its tile background and name) -->
+    <section class="category-tiles" aria-label="Shop by category">
+      <ul class="tile-grid">
+        <li><a class="tile" href="#"><img src="images/categories/paan-corner.png" alt="Paan Corner"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/dairy-bread-eggs.png" alt="Dairy, Bread &amp; Eggs"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/fruits-vegetables.png" alt="Fruits &amp; Vegetables"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/cold-drinks-juices.png" alt="Cold Drinks &amp; Juices"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/snacks-munchies.png" alt="Snacks &amp; Munchies"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/breakfast-instant-food.png" alt="Breakfast &amp; Instant Food"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/sweet-tooth.png" alt="Sweet Tooth"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/bakery-biscuits.png" alt="Bakery &amp; Biscuits"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/tea-coffee-milk-drinks.png" alt="Tea, Coffee &amp; Milk Drinks"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/atta-rice-dal.png" alt="Atta, Rice &amp; Dal"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/masala-oil-more.png" alt="Masala, Oil &amp; More"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/sauces-spreads.png" alt="Sauces &amp; Spreads"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/chicken-meat-fish.png" alt="Chicken, Meat &amp; Fish"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/organic-healthy-living.png" alt="Organic &amp; Healthy Living"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/baby-care.png" alt="Baby Care"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/pharma-wellness.png" alt="Pharma &amp; Wellness"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/cleaning-essentials.png" alt="Cleaning Essentials"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/home-office.png" alt="Home &amp; Office"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/personal-care.png" alt="Personal Care"></a></li>
+        <li><a class="tile" href="#"><img src="images/categories/pet-care.png" alt="Pet Care"></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-links">
+        <nav class="useful-links" aria-labelledby="useful-links-heading">
+          <h2 class="footer-heading" id="useful-links-heading">Useful Links</h2>
+          <div class="useful-links-columns">
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Partner</a></li>
+              <li><a href="#">Franchise</a></li>
+              <li><a href="#">Seller</a></li>
+              <li><a href="#">Warehouse</a></li>
+              <li><a href="#">Deliver</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Recipes</a></li>
+              <li><a href="#">Bistro</a></li>
+              <li><a href="#">District</a></li>
+              <li><a href="#">Blinkit Ambulance</a></li>
+              <li><a href="#">Feeding India</a></li>
+              <li><a href="#">Eternal SBI Credit Card</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <nav class="footer-categories" aria-labelledby="categories-heading">
+          <div class="footer-heading-row">
+            <h2 class="footer-heading" id="categories-heading">Categories</h2>
+            <a class="see-all" href="#">see all</a>
+          </div>
+          <ul class="footer-category-list">
+            <li><a href="#">Bath &amp; Body</a></li>
+            <li><a href="#">Hair</a></li>
+            <li><a href="#">Skin &amp; Face</a></li>
+            <li><a href="#">Beauty &amp; Cosmetics</a></li>
+            <li><a href="#">Feminine Hygiene</a></li>
+            <li><a href="#">Baby Care</a></li>
+            <li><a href="#">Health &amp; Pharma</a></li>
+            <li><a href="#">Sexual Wellness</a></li>
+            <li><a href="#">Vegetables &amp; Fruits</a></li>
+            <li><a href="#">Atta, Rice &amp; Dal</a></li>
+            <li><a href="#">Oil, Ghee &amp; Masala</a></li>
+            <li><a href="#">Dairy, Bread &amp; Eggs</a></li>
+            <li><a href="#">Bakery &amp; Biscuits</a></li>
+            <li><a href="#">Dry Fruits &amp; Cereals</a></li>
+            <li><a href="#">Chicken, Meat &amp; Fish</a></li>
+            <li><a href="#">Kitchenware &amp; Appliances</a></li>
+            <li><a href="#">Chips &amp; Namkeen</a></li>
+            <li><a href="#">Sweets &amp; Chocolates</a></li>
+            <li><a href="#">Drinks &amp; Juices</a></li>
+            <li><a href="#">Tea, Coffee &amp; Milk Drinks</a></li>
+            <li><a href="#">Instant Food</a></li>
+            <li><a href="#">Sauces &amp; Spreads</a></li>
+            <li><a href="#">Paan Corner</a></li>
+            <li><a href="#">Ice Creams &amp; More</a></li>
+            <li><a href="#">Home &amp; Lifestyle</a></li>
+            <li><a href="#">Cleaners &amp; Repellents</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Stationery &amp; Games</a></li>
+            <li><a href="#">Print Store</a></li>
+            <li><a href="#">E-Gift Cards</a></li>
+            <li><a href="#">Rakhi Gifts</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bar">
+        <p class="copyright">&copy; Blink Commerce Private Limited, 2016-2026</p>
+        <div class="download-app">
+          <span class="download-label">Download App</span>
+          <a href="#"><img src="images/app-store-badge.png" alt="Download on the App Store" width="115" height="38"></a>
+          <a href="#"><img src="images/google-play-badge.png" alt="Get it on Google Play" width="115" height="38"></a>
+        </div>
+        <div class="socials">
+                <a href="#">f</a>
+                <a href="#">𝕏</a>
+                <a href="#">◎</a>
+                <a href="#">in</a>
+                <a href="#">◎</a>
+            </div>
+      </div>
+
+      <p class="disclaimer">&ldquo;Blinkit&rdquo; is owned &amp; managed by &quot;Blink Commerce Private Limited&quot; and is not related, linked or interconnected in whatsoever manner or nature, to &ldquo;GROFFR.COM&rdquo; which is a real estate services business operated by &ldquo;Redstone Consultancy Services Private Limited&rdquo;.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
